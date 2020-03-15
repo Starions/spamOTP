@@ -6,22 +6,22 @@ class Main:
 		self.detekos()
 
 	def menu(self):
-print ("""================================
-          Author    :   Mr.St4ri0ns
-          Fanspage  :   St4ri0nS
-          Chanel Yt :   Lerry Real
-          ================================
-1. Spam TRI
-2. Spam HooqTV
-3. Spam HooqTv (GUI)
-4. Spam Telkomsel
-5. Spam Sms Gratis
-6. Spam Sms Gratis (GUI)
-7. Sms Gratis PayuTerus
-8. Sms Gratis PayuTerus (GUI)
-9. ALTBalaji OTP Spammer
+print "================================"
+print " Author    :   Mr.St4ri0ns"
+print " Fanspage  :   St4ri0nS"
+print "Chanel Yt :   Lerry Real"
+print "================================"
+print "1. Spam TRI"
+print "2. Spam HooqTV"
+print "3. Spam HooqTv (GUI)"
+print "4. Spam Telkomsel"
+print "5. Spam Sms Gratis"
+print "6. Spam Sms Gratis (GUI)"
+print "7. Sms Gratis PayuTerus"
+print "8. Sms Gratis PayuTerus (GUI)"
+print "9. ALTBalaji OTP Spammer"
 """)
-		pilih=int(input('/Kang-newbie: '))
+		pilih=int(input('/St4ri0ns-Input: '))
 		if pilih == 1:
 			import src.sms
 		elif pilih == 2:
